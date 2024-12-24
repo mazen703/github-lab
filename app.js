@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.send('This is a simple Node.js application for GitHub practice.');
+    res.send('This is a simple Node.js application for GitHub practice and devops.');
 });
 
 const port = 3000;

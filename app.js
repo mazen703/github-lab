@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Welcome to your first Node.js App!');
+    res.send('Welcome to your first Node.js Application!');
 });
 
 app.get('/about', (req, res) => {
